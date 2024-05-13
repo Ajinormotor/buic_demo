@@ -7,7 +7,7 @@ import "../Header/Header.css"
 
 const nav_link = [
     {
-      path:'/home',
+      path:'/buic_demo',
       display: 'Home'
     },
   
@@ -68,7 +68,7 @@ const handleClick = ()=> {
 
 
   return (
-<section className="bg-secGreen overflow-x-hidden overflow-y-hidden max-w-full   h-[13vh]" ref={headerRef}>
+<section className="bg-secGreen overflow-x-hidden overflow-y-hidden max-w-full   h-[11vh]" ref={headerRef}>
     <div  className="flex justify-between items-center px-3 md:py-3 pt-[0.5rem] ">
 
         {/* LOGO */}
