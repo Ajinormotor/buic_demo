@@ -19,13 +19,13 @@ function App() {
   
 
   return (
-    <>
+    <main className="relative overflow-x-hidden">
 <Header />
 <Routs />
 <Countries  />
 <Footer />
 
-    </>
+    </main>
   )
 }
 

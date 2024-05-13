@@ -8,7 +8,7 @@ const Hero = () => {
     <section  className="relative max-w-full overrflow-x-hidden">
 
 
-    <div className="slider_bg1  items-center justify-center  relative  flex flex-col text-center ">
+    <div className="slider_bg1  items-center justify-center over  relative  flex flex-col text-center ">
       <div  className=" w-[100%] flex flex-col items-center justify-center">
          
            <h1  className="md:w-[600px] font-tekmont uppercase text-[45px] line-[10px] text-[#ffffff] ">Safe and Efficient Oil   and Gas Solutions</h1>
