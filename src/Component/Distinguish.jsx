@@ -24,7 +24,7 @@ const Distinguish = () => {
 
             <div  className="md:w-300px w-[100%]">
            
-  <h1  className="text-[55px] font-tekfont #08172E">BUIC Distinguishes Itself Through Its:</h1>
+  <h1  className="md:text-[55px] text-[35px] font-tekmont #08172E">BUIC Distinguishes Itself Through Its:</h1>
 <div  className="w-[50px]  h-[2px] bg-secGreen"></div>
 
 <p className="text-[#77C83] pt-2 pb-2">Unmatched experience of [Number] years in the industry.</p>

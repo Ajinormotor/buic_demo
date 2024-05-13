@@ -7,7 +7,7 @@ import "../Header/Header.css"
 
 const nav_link = [
     {
-      path:'/',
+      path:'/home',
       display: 'Home'
     },
   
@@ -74,7 +74,7 @@ const handleClick = ()=> {
         {/* LOGO */}
         <div  className="flex gap-3  items-center">
             <img src={logo}  alt="logo_pics"   className="w-[50px] h-[50px]" />
-            <h1  className="text-[#fcfcfc] "> BUIC Industrial <br  />Services LTD</h1>
+            <h1  className="text-[#fcfcfc] text-[13px]"> BUIC Industrial <br  />Services LTD</h1>
         </div>
 
         <div  className="flex justify-between items-center w-[50%]  md:w-[60%] gap-4">
@@ -83,7 +83,7 @@ const handleClick = ()=> {
 <ul  className={click?  ("navigate md:block flex gap-4 bg-priGreen "):("navigation md:flex hidden gap-3") } >
   {
     nav_link.map((item , index)=>(
-      <li  className="navigate_item flex  w-[100%] gap-4 text-[16px]  uppercase text-mainGreen  md:text-white" key={index} >
+      <li  className="navigate_item flex  w-[100%] gap-4 text-[16px] hover:scale-x-[15px]  uppercase text-mainGreen  md:text-white" key={index} >
         <NavLink to={item.path}  className=" gap-4 font-tekmont text-[20px] text-white font-[600]">{item.display}</NavLink></li>
     ))
   }
@@ -100,7 +100,7 @@ const handleClick = ()=> {
         </div>
 
    
-      <div onClick={handleClick}  className=" flex md:hidden text-white text-[20px] font-[700]
+      <div onClick={handleClick}  className=" flex md:hidden text-white text-[26px] font-[700]
        shadow cursor-pointer">
   {click? <i className="ri-close-line"></i> : <i className="ri-menu-2-line"></i>}
 

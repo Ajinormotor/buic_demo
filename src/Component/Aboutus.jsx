@@ -16,7 +16,7 @@ const Aboutus = () => {
 
             <div  className="md:w-300px w-[100%]">
          
-  <h1  className="text-[55px] font-tekfont #08172E">ABOUT COMPANY</h1>
+  <h1  className="text-[35px]  md:text-[55px] font-tekfont #08172E">ABOUT COMPANY</h1>
 <div  className="w-[50px]  h-[2px] bg-secGreen"></div>
 
 <p className="text-[#77C83] pt-2 pb-2">BUIC is a leading provider of comprehensive oil and gas services across the entire value chain.  We operate with a global presence, 

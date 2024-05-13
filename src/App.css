@@ -22,3 +22,9 @@
   background-size: cover;
   background-position: center;
 }
+@media screen and (max-width:500px){
+  .services_bg1{
+    height: 40vh;
+  }
+  
+}
