@@ -7,7 +7,7 @@ const Distinguish = () => {
     data-aos="fade-right" 
    >
 
-    <div  className="flex md:p-4 p-2 md:flex-row flex-col justify-center  md:gap-[5rem] gap-[3rem]  mx-0  md:mt-7   h-[500px">
+    <div  className="flex md:p-4 p-2 md:flex-row flex-col justify-around  md:gap-[5rem] gap-[3rem]  mx-0  md:mt-7   h-[500px">
 
         
         {/* FIRST BOX */}

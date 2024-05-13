@@ -2,7 +2,7 @@ import world from "../assets/Pics/world.png"
 
 const Countries = () => {
   return (
-<section  className="bg_color mt-[4rem] bg-[#B0C8B2]">
+<section  className="bg_color mt-[2rem] bg-[#B0C8B2]">
 
     <div  className="w-[100%]  h-[80vh]  flex flex-col text-center items-center justify-center  pt-5">
     
